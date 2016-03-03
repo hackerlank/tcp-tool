@@ -1,0 +1,170 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LuaDLL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP78D2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LUADLL_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug/LuaDLL.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\workspace\Client\Client\lua\lapi.c"
+"D:\workspace\Client\Client\lua\lauxlib.c"
+"D:\workspace\Client\Client\lua\lbaselib.c"
+"D:\workspace\Client\Client\lua\lbitlib.c"
+"D:\workspace\Client\Client\lua\lcode.c"
+"D:\workspace\Client\Client\lua\lcorolib.c"
+"D:\workspace\Client\Client\lua\lctype.c"
+"D:\workspace\Client\Client\lua\ldblib.c"
+"D:\workspace\Client\Client\lua\ldebug.c"
+"D:\workspace\Client\Client\lua\ldo.c"
+"D:\workspace\Client\Client\lua\ldump.c"
+"D:\workspace\Client\Client\lua\lfunc.c"
+"D:\workspace\Client\Client\lua\lgc.c"
+"D:\workspace\Client\Client\lua\linit.c"
+"D:\workspace\Client\Client\lua\liolib.c"
+"D:\workspace\Client\Client\lua\llex.c"
+"D:\workspace\Client\Client\lua\lmathlib.c"
+"D:\workspace\Client\Client\lua\lmem.c"
+"D:\workspace\Client\Client\lua\loadlib.c"
+"D:\workspace\Client\Client\lua\lobject.c"
+"D:\workspace\Client\Client\lua\lopcodes.c"
+"D:\workspace\Client\Client\lua\loslib.c"
+"D:\workspace\Client\Client\lua\lparser.c"
+"D:\workspace\Client\Client\lua\lstate.c"
+"D:\workspace\Client\Client\lua\lstring.c"
+"D:\workspace\Client\Client\lua\lstrlib.c"
+"D:\workspace\Client\Client\lua\ltable.c"
+"D:\workspace\Client\Client\lua\ltablib.c"
+"D:\workspace\Client\Client\lua\ltm.c"
+"D:\workspace\Client\Client\lua\lundump.c"
+"D:\workspace\Client\Client\lua\lutf8lib.c"
+"D:\workspace\Client\Client\lua\lvm.c"
+"D:\workspace\Client\Client\lua\lzio.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP78D2.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP78D3.tmp" with contents
+[
+/nologo /dll /incremental:yes /pdb:"Debug/Lua.pdb" /debug /machine:I386 /out:"../bin/Debug/Lua.dll" /implib:"Debug/Lua.lib" /pdbtype:sept 
+.\Debug\lapi.obj
+.\Debug\lauxlib.obj
+.\Debug\lbaselib.obj
+.\Debug\lbitlib.obj
+.\Debug\lcode.obj
+.\Debug\lcorolib.obj
+.\Debug\lctype.obj
+.\Debug\ldblib.obj
+.\Debug\ldebug.obj
+.\Debug\ldo.obj
+.\Debug\ldump.obj
+.\Debug\lfunc.obj
+.\Debug\lgc.obj
+.\Debug\linit.obj
+.\Debug\liolib.obj
+.\Debug\llex.obj
+.\Debug\lmathlib.obj
+.\Debug\lmem.obj
+.\Debug\loadlib.obj
+.\Debug\lobject.obj
+.\Debug\lopcodes.obj
+.\Debug\loslib.obj
+.\Debug\lparser.obj
+.\Debug\lstate.obj
+.\Debug\lstring.obj
+.\Debug\lstrlib.obj
+.\Debug\ltable.obj
+.\Debug\ltablib.obj
+.\Debug\ltm.obj
+.\Debug\lundump.obj
+.\Debug\lutf8lib.obj
+.\Debug\lvm.obj
+.\Debug\lzio.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP78D3.tmp"
+<h3>Output Window</h3>
+Compiling...
+lapi.c
+d:\workspace\client\client\lua\lapi.c(381) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\lapi.c(381) : warning C4003: not enough actual parameters for macro 'condchangemem'
+d:\workspace\client\client\lua\lapi.c(482) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\lapi.c(482) : warning C4003: not enough actual parameters for macro 'condchangemem'
+d:\workspace\client\client\lua\lapi.c(497) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\lapi.c(497) : warning C4003: not enough actual parameters for macro 'condchangemem'
+d:\workspace\client\client\lua\lapi.c(512) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\lapi.c(512) : warning C4003: not enough actual parameters for macro 'condchangemem'
+d:\workspace\client\client\lua\lapi.c(523) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\lapi.c(523) : warning C4003: not enough actual parameters for macro 'condchangemem'
+d:\workspace\client\client\lua\lapi.c(541) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\lapi.c(541) : warning C4003: not enough actual parameters for macro 'condchangemem'
+d:\workspace\client\client\lua\lapi.c(686) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\lapi.c(686) : warning C4003: not enough actual parameters for macro 'condchangemem'
+d:\workspace\client\client\lua\lapi.c(1078) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\lapi.c(1078) : warning C4003: not enough actual parameters for macro 'condchangemem'
+d:\workspace\client\client\lua\lapi.c(1143) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\lapi.c(1143) : warning C4003: not enough actual parameters for macro 'condchangemem'
+d:\workspace\client\client\lua\lapi.c(1186) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\lapi.c(1186) : warning C4003: not enough actual parameters for macro 'condchangemem'
+lauxlib.c
+lbaselib.c
+lbitlib.c
+lcode.c
+lcorolib.c
+lctype.c
+ldblib.c
+ldebug.c
+ldo.c
+d:\workspace\client\client\lua\ldo.c(233) : warning C4003: not enough actual parameters for macro 'condmovestack'
+d:\workspace\client\client\lua\ldo.c(238) : warning C4003: not enough actual parameters for macro 'luaD_checkstackaux'
+d:\workspace\client\client\lua\ldo.c(238) : warning C4003: not enough actual parameters for macro 'condmovestack'
+d:\workspace\client\client\lua\ldo.c(255) : warning C4003: not enough actual parameters for macro 'luaD_checkstackaux'
+d:\workspace\client\client\lua\ldo.c(255) : warning C4003: not enough actual parameters for macro 'condmovestack'
+d:\workspace\client\client\lua\ldo.c(350) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\ldo.c(350) : warning C4003: not enough actual parameters for macro 'condchangemem'
+d:\workspace\client\client\lua\ldo.c(371) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\ldo.c(371) : warning C4003: not enough actual parameters for macro 'condchangemem'
+d:\workspace\client\client\lua\ldo.c(392) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\ldo.c(392) : warning C4003: not enough actual parameters for macro 'condchangemem'
+d:\workspace\client\client\lua\ldo.c(584) : warning C4244: '=' : conversion from 'long ' to 'unsigned char ', possible loss of data
+ldump.c
+lfunc.c
+lgc.c
+linit.c
+liolib.c
+llex.c
+d:\workspace\client\client\lua\llex.c(137) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\llex.c(137) : warning C4003: not enough actual parameters for macro 'condchangemem'
+lmathlib.c
+lmem.c
+loadlib.c
+lobject.c
+d:\workspace\client\client\lua\lobject.c(416) : warning C4003: not enough actual parameters for macro 'luaD_checkstackaux'
+d:\workspace\client\client\lua\lobject.c(416) : warning C4003: not enough actual parameters for macro 'condmovestack'
+lopcodes.c
+loslib.c
+lparser.c
+d:\workspace\client\client\lua\lparser.c(566) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\lparser.c(566) : warning C4003: not enough actual parameters for macro 'condchangemem'
+lstate.c
+d:\workspace\client\client\lua\lstate.c(259) : warning C4003: not enough actual parameters for macro 'luaC_condGC'
+d:\workspace\client\client\lua\lstate.c(259) : warning C4003: not enough actual parameters for macro 'condchangemem'
+lstring.c
+lstrlib.c
+ltable.c
+ltablib.c
+ltm.c
+lundump.c
+lutf8lib.c
+lvm.c
+d:\workspace\client\client\lua\lvm.c(1284) : warning C4003: not enough actual parameters for macro 'luaD_checkstackaux'
+d:\workspace\client\client\lua\lvm.c(1284) : warning C4003: not enough actual parameters for macro 'condmovestack'
+lzio.c
+Linking...
+
+
+
+<h3>Results</h3>
+Lua.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
